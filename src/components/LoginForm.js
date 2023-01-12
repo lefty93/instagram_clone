@@ -1,14 +1,9 @@
 import React from "react";
 import instagram from "../img/Instagram_Logo_Large.png";
-import screenshot from "../img/screenshot1-2x.png";
 
 function LoginForm() {
   return (
-    <div className="form-outer inline-grid grid-cols-2 gap-2 place-items-center">
-      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 relative">
-        <img src={screenshot} alt="" />
-      </div>
-
+    <div className="form-outer">
       <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 relative">
         <div className="p-7">
           <img src={instagram} alt="" />
