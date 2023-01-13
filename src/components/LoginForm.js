@@ -1,41 +1,24 @@
 import React from "react";
-import instagram from "../img/Instagram_Logo_Large.png";
+import insta from "../img/screenshot1-2x.png";
 
 function LoginForm() {
   return (
-    <div className="form-outer">
-      <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 relative">
-        <div className="p-7">
-          <img src={instagram} alt="" />
+    <div>
+      <div className="flex justify-center content-center">
+        <div
+          className="bg-center bg-cover bg-no-repeat h-[650px] w-[390px] relative mt-[45px] mr-[45px] mb-0 ml-0"
+          style={{
+            backgroundImage: `url(${"https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png"})`,
+          }}
+        >
+          <div
+            className="absolute w-[250px] h-[550px] bg-center bg-cover top-[30px] right-[20px]"
+            style={{
+              backgroundImage: `url(${"https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png"})`,
+            }}
+          ></div>
         </div>
-        <div className="form-inner">
-          <div className="form-group py-2">
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Phone number, username or email"
-              class="border rounded w-full"
-            />
-          </div>
-          <div className="form-group py-2">
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-              class="border rounded w-full"
-            />
-          </div>
-          <div className="py-2">
-            <input
-              type="submit"
-              value="Login"
-              class="bg-blue-400 w-full rounded-md text-white"
-            />
-          </div>
-        </div>
-      </form>
+      </div>
     </div>
   );
 }
