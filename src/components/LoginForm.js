@@ -19,6 +19,24 @@ function LoginForm() {
           ></div>
         </div>
       </div>
+      <div className="content">
+        <div className="form-container">
+          <h1>Instagram</h1>
+          <form>
+            <input type="email" name="" id="" placeholder="Phone number, username, or email" />
+            <input type="password" name="" id="" placeholder="Password" />
+            <button>Log in</button>
+            <div className="or">
+              <hr />
+              <span>OR</span>
+              <hr />
+              <div className="facebook">
+
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   );
 }
