@@ -1,10 +1,11 @@
 import React from "react";
 
+
 function LoginForm() {
   return (
     <div className="flex justify-center content-center">
       <div
-        className="bg-center bg-cover bg-no-repeat h-[650px] w-[390px] relative mt-[45px] mr-[45px] mb-0 ml-0"
+        className="bg-center bg-cover bg-no-repeat h-[650px] w-[390px] relative mt-[45px] mr-[45px] mb-0 ml-0 max-[830px]:hidden"
         style={{
           backgroundImage: `url(${"https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png"})`,
         }}

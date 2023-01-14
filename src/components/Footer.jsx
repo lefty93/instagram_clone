@@ -1,20 +1,28 @@
 import React from "react";
 
 function Footer() {
+  const date = new Date();
+  const latest = date.getFullYear();
   return (
-    <div class="links">
-      <a href="#">Meta</a>
-      <a href="#">About</a>
-      <a href="#">Blog</a>
-      <a href="#">Jobs</a>
-      <a href="#">Help</a>
-      <a href="#">API</a>
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Top Accounts</a>
-      <a href="#">Locations</a>
-      <a href="#">Instagram Lite</a>
+    <div className="footer max-[830px]:hidden">
+      <div className="links flex justify-center pt-[25px] px-[5%] pb-[20px] space-x-6" >
+        <a href="#" className="hover:underline">Meta</a>
+        <a href="#" className="hover:underline">About</a>
+        <a href="#" className="hover:underline">Blog</a>
+        <a href="#" className="hover:underline">Jobs</a>
+        <a href="#" className="hover:underline">Help</a>
+        <a href="#" className="hover:underline">API</a>
+        <a href="#" className="hover:underline">Privacy</a>
+        <a href="#" className="hover:underline">Terms</a>
+        <a href="#" className="hover:underline">Top Accounts</a>
+        <a href="#" className="hover:underline">Locations</a>
+        <a href="#" className="hover:underline">Instagram Lite</a>
+      </div>
+      <div className="copyright flex justify-center">
+        &copy; {latest} Instagram from Meta
+      </div>
     </div>
+
   );
 }
 
