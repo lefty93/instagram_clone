@@ -73,17 +73,19 @@ function LoginForm() {
             </a>
           </span>
         </div>
-        <p className="items-center text-center mt-[20px] mx-0 mb-0">
+        <p className="items-center text-center my-[20px] mx-0">
           Get the app.
         </p>
-        <div className="appstore">
+        <div className="appstore flex justify-center">
           <img
             src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
             alt=""
+            className="h-[45px] my-0 mx-[5px]"
           />
           <img
             src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
             alt=""
+            className="h-[45px] my-0 mx-[5px]"
           />
         </div>
       </div>
