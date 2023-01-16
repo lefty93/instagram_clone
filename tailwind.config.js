@@ -2,9 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+    },
     fontFamily: {
-      engagement: ["Engagement", "cursive"]
+      engagement: ["Engagement", "cursive"],
     },
   },
   plugins: [],

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function LoginForm() {
   return (
     <div className="flex justify-center content-center">
@@ -10,12 +9,8 @@ function LoginForm() {
           backgroundImage: `url(${"https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png"})`,
         }}
       >
-        <div
-          className="absolute w-[250px] h-[550px] bg-center bg-cover top-[30px] right-[20px]"
-          style={{
-            backgroundImage: `url(${"https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png"})`,
-          }}
-        ></div>
+        {/* slideshow */}
+        <div className="bg absolute w-[250px] h-[550px] bg-center bg-cover top-[30px] right-[20px] slideshow"></div>
       </div>
       <div className="content mt-[45px]">
         <div className="form-container bg-white py-[20px] px-[45px] w-[350px] flex flex-col items-center border border-solid border-[#eee]">
@@ -74,9 +69,7 @@ function LoginForm() {
             </a>
           </span>
         </div>
-        <p className="items-center text-center my-[20px] mx-0">
-          Get the app.
-        </p>
+        <p className="items-center text-center my-[20px] mx-0">Get the app.</p>
         <div className="appstore flex justify-center">
           <img
             src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
